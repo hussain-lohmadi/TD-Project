@@ -1,5 +1,5 @@
 # Chronos - Time Management Redefined
-![Chronos user interface](chronos_screenshot.png)
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Ftask-manager-planner-organizer-application-dashboard-ui-with-task-performance-process-time-management-web-app-vector-template_26839957.htm&psig=AOvVaw33YD1z92jNd0a4XM1qMNLb&ust=1729720463161000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCDsoD9ookDFQAAAAAdAAAAABAJ)
 ## Key Features
 - **To-Do Lists**
   
