@@ -226,11 +226,11 @@ public class ChronosReminder {
 
 # FOOTNOTES
 [^1]:
-## to contact us:
+### to contact us:
 S444001990@UQU.EDU.SA
 
 [^2]: 
-## another example of creating a weekly reminder task
+### another example of creating a weekly reminder task
 ```javascript
 // Script to create a weekly reminder task for team meeting
 
@@ -257,7 +257,7 @@ createTask(taskTitle, taskDescription, dueDate);
 THIS WILL HELP YOU COMPRIHENS THE CODE MORE
 
 [^3]:
-## more infos about the difference between **Ubuntu** and **General Linux** 
+### more infos about the difference between **Ubuntu** and **General Linux** 
 - Linux is a broad term that encompasses all operating systems built around the Linux kernel.
 - Ubuntu is a specific user-friendly Linux distribution derived from Debian, designed to be accessible and widely supported.
 In essence, Ubuntu is a Linux distribution, but not all Linux distributions are Ubuntu. Ubuntu takes the Linux kernel and adds its own customizations, software, desktop environment, and tools to create a cohesive operating system.
