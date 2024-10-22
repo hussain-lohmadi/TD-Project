@@ -223,12 +223,12 @@ public class ChronosReminder {
 | **GitHub**             | A platform for version control and collaboration for software development projects. | [GitHub](https://github.com)   |
 | **Evernote**           | A note-taking app that allows users to organize notes, tasks, and ideas in one place. | [Evernote](https://evernote.com) |
 
----
-# REFERENCES
+
+# FOOTNOTES
 [^1]:
 ## to contact us:
 S444001990@UQU.EDU.SA
----
+
 [^2]: 
 ## another example of creating a weekly reminder task
 ```javascript
@@ -255,7 +255,7 @@ function createTask(title, description, dueDate) {
 createTask(taskTitle, taskDescription, dueDate);
 ```
 THIS WILL HELP YOU COMPRIHENS THE CODE MORE
----
+
 [^3]:
 ## more infos about the difference between **Ubuntu** and **General Linux** 
 - Linux is a broad term that encompasses all operating systems built around the Linux kernel.
