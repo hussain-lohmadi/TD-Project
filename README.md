@@ -62,96 +62,86 @@ DZASHA
      cd FocusPro
      ./install.sh
      ```
-  
-  1. Follow any on-screen instructions provided by the installation script
+    - Follow any on-screen instructions provided by the installation script
 ---   
 ## User Guide
-### Creating a New Project:
-- [x] Open Chronos app
-- [x] Navigate to “Projects” tab
-- [x] Click on “+ New Project” button
-- [x] Enter project name
-- [x] Set a project deadline
-- [x] Add an optional description
-- [x] Assign team members(if needed) 
-- [x] Create tasks related to the project
-- [x] Click “Save” or “Create Project”
+### Creating an Account
+- [x] **Sign Up**:   
+      1. Tap on the Sign Up button on the home screen.   
+      2. Fill in the required fields: name, email, password, and phone number.   
+      3. Accept the terms and conditions, then tap Create Account.
+- [x] **Log In**:   
+      1. If you already have an account, tap on Log In.   
+      2. Enter your email and password, then tap Log In.
+- [x] **Social Media Login**:      
+       You can also log in using your Google or Facebook account.
+### Searching for Products   
+- [x] **Search Bar**:      
+       Use the search bar at the top of the screen to enter keywords (e.g., "jeans," "t-shirts").
+- [x] **Filters**:      
+      Apply filters for size, color, price range, and brand to narrow down your search results.
+### Viewing Product Details
+- [x] **Select a Product**:      
+       Tap on a product image from the list to view its details.
+- [x] **Product Information**:      
+      Check out high-quality images, descriptions, size guides, and customer reviews.
+- [x] **Size and Fit**:      
+       Refer to the size chart provided for accurate fitting.
+### Checking Out
+- [x] **Proceed to Checkout**:      
+      Once you're ready, tap on Checkout in your cart.
+- [x] **Shipping Information**:      
+      Enter your shipping address and select your preferred shipping method.
+- [X] **Payment Options**:   
+       Choose your payment method (credit card, PayPal, etc.) and enter the necessary details.
+- [X] **Complete Purchase**:   
+       Tap on Place Order to finalize your purchase.
+### Customer Support     
+  - In case, facing any problem; you can contact support team[^1].
+## Collaboration
 
-### Collaboration
+DZASHA collaborated with many payment companies, to make the experience more flixible
 
-Chronos offers collaboration features to utilize teamwork and communication 
+| Company          | Country of Origin | Established | Key Services                                     | Notable Partnerships        |
+|-------------------|------------------|-------------|--------------------------------------------------|------------------------------|
+| PayPal            | USA              | 1998        | Online payments, money transfers, invoicing      | eBay, Shopify                |
+| Stripe            | USA              | 2010        | Payment processing, subscription billing          | Amazon, Lyft                 |
+| Square            | USA              | 2009        | Point of sale, online payments, invoicing        | Weebly, QuickBooks           |
+| Adyen             | Netherlands      | 2006        | Global payment processing, risk management        | Uber, Spotify                |
+| Payoneer          | USA              | 2005        | International payments, cross-border transactions | Upwork, Fiverr               |
+| Revolut           | UK               | 2015        | Banking services, international money transfers   | Mastercard                   |
+| Worldpay          | UK               | 1989        | Payment processing, fraud protection              | Visa, American Express       |
+| Braintree         | USA              | 2007        | Mobile and web payment systems                    | Uber, Airbnb                 |
+| Klarna            | Sweden           | 2005        | Buy now, pay later, payment processing            | H&M, Expedia                 |
+| Zelle             | USA              | 2017        | Instant money transfers between bank accounts     | Bank of America, Chase       |
 
-| Collaboration Option     | Description                                      | Benefits                            |
-|--------------------------|--------------------------------------------------|-------------------------------------|
-| **Shared Projects**      | Projects can be shared among team members.     | Easy access and collaboration.      |
-| **Task Assignments**     | Assign specific tasks to individual members.    | Clear accountability for tasks.     |
-| **Comments and Feedback**| Team members can leave comments on tasks.       | Facilitates communication and updates. |
-| **comunication Chat**       | In-app messaging for instant communication.     | Quick discussions without leaving the app. |
 
-### Reporting
-
-Users can generate reports in Chronos to track project progress, task completion, and overall performance metrics. These reports can be customized based on project needs and can be exported in various formats.
-
-- Generating a Report:
-1. Navigate to the **“Reports”** section in the Chronos app.
-2. Select the project for which you want to generate a report.
-3. Choose the report type (e.g., progress report, completion report).
-4. Click **“Generate Report”**.
-5. The report will be generated and available for viewing or exporting.
-
-- Example of a Generated Report in JSON Format:
-
-```json
-{
-  "projectName": "Website Redesign",
-  "startDate": "2024-01-15",
-  "endDate": "2024-04-30",
-  "tasks": [
-    {
-      "taskName": "Design Mockups",
-      "assignedTo": "Alice",
-      "status": "Completed",
-      "dueDate": "2024-02-10"
-    },
-    {
-      "taskName": "Develop Frontend",
-      "assignedTo": "Bob",
-      "status": "In Progress",
-      "dueDate": "2024-03-15"
-    },
-    {
-      "taskName": "Testing",
-      "assignedTo": "Charlie",
-      "status": "Pending",
-      "dueDate": "2024-04-20"
-    }
-  ],
-  "overallStatus": "In Progress",
-  "completionPercentage": 33
-}
-```
 ---
 ## Troubleshooting
 
-Here are some common issues users might encounter while using Chronos
+Here are some common issues users might encounter while using DZASHA
 
-- **Issue: Unable to Create a New Project**
+- **Payment Declined**
   - ***Definition***:  
-    Users may experience difficulties when trying to create a new project, often due to missing required fields or app permissions
+    Insufficient funds, incorrect card details, or the card issuer blocking the transaction.
   - ***Solution***:  
-   Ensure that all required fields (project name, deadline) are filled out correctly. Check that you have the necessary permissions to create projects within the app settings
-
-- **Issue: Syncing Problems with Calendar**
+    - Check your bank account balance.
+    - Verify that your card number, expiration date, and CVV are entered correctly.
+    - Contact your bank or card issuer for assistance.
+- **Issue: Transaction Timeout**
   - ***Definition***:  
-   Users may find that their tasks and deadlines are not syncing correctly with their external calendar (e.g., Google Calendar, Outlook)
+   Slow internet connection or server issues.
    - ***Solution***:  
-  Verify that your external calendar integration is properly configured in the settings. Try disconnecting and reconnecting your calendar account. If issues persist, check for any app updates
+     - Ensure you have a stable internet connection.
+     - Try refreshing the page or restarting the app.
+     - If the problem persists, wait a few minutes and try again.
 
-- **Issue: Slow Performance or App Crashes**
+- **Issue: Account Locked**
    - ***Definition***:  
-   Some users might experience lagging, freezing, or crashing while using the app, especially with large projects or many tasks
+   Multiple failed login attempts may lead to account lockout for security reasons.
   - ***Solution***:  
-  Ensure that your device meets the app’s minimum system requirements. Close any unnecessary applications running in the background. If the problem continues, try reinstalling the app or clearing the app cache (if applicable)
+     - Wait for a set period (e.g., 15 minutes) before trying to log in again.
+     - If you cannot log in after waiting, use the “Forgot Password?” option to reset your credentials.
 
 For further assistance, please refer to the support section or contact customer support[^1].
 
@@ -159,108 +149,101 @@ For further assistance, please refer to the support section or contact customer 
 
 ## Advanced Usage
 
-### How to Use Scripting in Chronos
+### How to add your product in DZASHA
 
-1. **Access the Scripting Interface**:
-   - Open the Chronos app and navigate to the **"Automation"** section from the main dashboard.
-   - Click on the **"Create Script"** button to open the scripting editor.
+- **Accessing the Seller Dashboard**:
+   - Log in to your account and navigate to the seller dashboard from the profile menu.
+   - Familiarize yourself with the dashboard layout, including sections for products, orders, and analytics.
+      - Benefits :
+        A centralized location for managing all aspects of your product listings and sales.
 
-2. **Write Your Script**:
-   - Use the provided syntax to define your automation tasks. The editor typically includes helpful hints and examples.
+- **Adding a New Product**:
+   - How to Use:
+      1. Click on the “Add Product” button in the seller dashboard.
+      2. Fill in the required fields, including product name, category, and brand.
+      3. Click “Save” to add the product to your inventory. 
 
-3. **Test Your Script**:
-   - After writing your script, use the **"Test"** button to run it in a controlled environment. This helps ensure there are no errors before applying it to real tasks.
+- **Adding Image**:
+   - after adding your product, you can embed an image at the HTML section
+     ```html
+     <img src="URL_TO_IMAGE" alt="Product Image" width="300" height="400">
+     ```
 
-4. **Save and Schedule Your Script**:
-   - Once you are satisfied with the script, save it and set a schedule for when you want it to run (e.g., daily, weekly, or on specific events).
-
-5. **Monitor and Adjust**:
-   - Regularly check the performance of your automated tasks. Adjust the script as needed to optimize its functionality.
+- **Save Your Product**:
+   - Once you are satisfied with the results, save it and set a price for it.
 
 ### Example Script
 
-Below is a simple example script that automatically creates a weekly reminder task for a team meeting every Monday at 10 AM[^2].
+Below is a simple example script that adds your product.
 
 ```java
-import java.util.Calendar;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
-public class ChronosReminder {
-    
+public class AddProductExample {
+
     public static void main(String[] args) {
-        String taskTitle = "Weekly Team Meeting";
-        String taskDescription = "Discuss project updates and action items.";
-        
-        Calendar dueDate = Calendar.getInstance();
-        dueDate.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
-        if (dueDate.getTimeInMillis() < System.currentTimeMillis()) {
-            dueDate.add(Calendar.WEEK_OF_YEAR, 1); 
+        try {
+            // URL of the API endpoint for adding a product
+            URL url = new URL("https://yourapi.com/api/products");
+
+            // Creating an HTTP connection
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestMethod("POST");
+            connection.setRequestProperty("Content-Type", "application/json; utf-8");
+            connection.setRequestProperty("Accept", "application/json");
+            connection.setDoOutput(true);
+
+            // Product data to be sent in JSON format
+            String jsonInputString = """
+                {
+                    "productName": "Classic Denim Jacket",
+                    "category": "Jackets",
+                    "brand": "Your Brand",
+                    "price": 79.99,
+                    "description": "A classic denim jacket made from 100% organic cotton.",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "colors": ["Light Blue", "Dark Blue"],
+                    "stock": 100,
+                    "imageUrl": "https://yourimageurl.com/denim-jacket.jpg"
+                }
+                """;
+
+            // Writing the JSON input to the request body
+            try (OutputStream os = connection.getOutputStream()) {
+                byte[] input = jsonInputString.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+
+            // Reading the API response
+            int responseCode = connection.getResponseCode();
+            if (responseCode == HttpURLConnection.HTTP_CREATED) {
+                System.out.println("Product added successfully!");
+            } else {
+                System.out.println("Failed to add product. Response Code: " + responseCode);
+            }
+
+            // Closing the connection
+            connection.disconnect();
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        dueDate.set(Calendar.HOUR_OF_DAY, 10); 
-        dueDate.set(Calendar.MINUTE, 0);
-        dueDate.set(Calendar.SECOND, 0);
-        
-        createTask(taskTitle, taskDescription, dueDate.getTime());
-    }
-    
-    public static void createTask(String title, String description, java.util.Date dueDate) {
-        System.out.println("Creating task:");
-        System.out.println("Title: " + title);
-        System.out.println("Description: " + description);
-        System.out.println("Due Date: " + dueDate);
-        System.out.println("Priority: Medium");
-        System.out.println("Tags: meeting, weekly");
-        
-         new String[]{"meeting", "weekly"});
     }
 }
+
 ```
-### Integrations
-
-| Application Name       | Description                                           | Website                        |
-|------------------------|-------------------------------------------------------|--------------------------------|
-| **Google Calendar**    | A widely used calendar application for scheduling events and reminders. | [Google Calendar](https://calendar.google.com) |
-| **Trello**             | A project management tool that uses boards, lists, and cards to organize tasks. | [Trello](https://trello.com)   |
-| **Microsoft Teams**    | A communication platform that integrates chat, video meetings, and file collaboration. | [Microsoft Teams](https://teams.microsoft.com) |
-| **GitHub**             | A platform for version control and collaboration for software development projects. | [GitHub](https://github.com)   |
-| **Evernote**           | A note-taking app that allows users to organize notes, tasks, and ideas in one place. | [Evernote](https://evernote.com) |
-
 
 # FOOTNOTES
 [^1]:
 ### to contact us:
 S444001990@UQU.EDU.SA
 
-[^2]: 
-### another example of creating a weekly reminder task
-```javascript
-// Script to create a weekly reminder task for team meeting
-
-const taskTitle = "Weekly Team Meeting";
-const taskDescription = "Discuss project updates and action items.";
-const dueDate = new Date(); // Current date
-dueDate.setDate(dueDate.getDate() + (1 + 7 - dueDate.getDay()) % 7); // Next Monday
-dueDate.setHours(10, 0, 0); // Set time to 10 AM
-
-// Function to create a new task
-function createTask(title, description, dueDate) {
-    return Chronos.Tasks.create({
-        title: title,
-        description: description,
-        dueDate: dueDate,
-        priority: 'Medium',
-        tags: ['meeting', 'weekly']
-    });
-}
-
-// Schedule the task creation for next Monday
-createTask(taskTitle, taskDescription, dueDate);
-```
-THIS WILL HELP YOU COMPRIHENS THE CODE MORE
 
 [^3]:
 ### more infos about the difference between **Ubuntu** and **General Linux** 
 - Linux is a broad term that encompasses all operating systems built around the Linux kernel.
 - Ubuntu is a specific user-friendly Linux distribution derived from Debian, designed to be accessible and widely supported.
 In essence, Ubuntu is a Linux distribution, but not all Linux distributions are Ubuntu. Ubuntu takes the Linux kernel and adds its own customizations, software, desktop environment, and tools to create a cohesive operating system.
-
-
