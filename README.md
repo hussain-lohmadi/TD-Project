@@ -1,7 +1,7 @@
 # DZASHA SHOPPING APP
-![UI IMAGE](https://github.com/user-attachments/assets/08c0bd17-137c-47cd-a6f8-2edb2c968f81)
 DZASHA
 ## Key Features
+![search-on-category-pc](https://github.com/user-attachments/assets/c31cdc69-090f-435b-9eab-9a95d18e8acf)
 - **Product Details**
   
          Detailed product descriptions, including materials, care instructions, and size guides.
@@ -93,6 +93,7 @@ DZASHA
 - [x] **Shipping Information**:      
       Enter your shipping address and select your preferred shipping method.
 - [X] **Payment Options**:   
+      ![3c32af2f8db25d85fa86b0fa9ed2ae20](https://github.com/user-attachments/assets/1ea39636-2216-4f5a-8f37-1c95a68ebb07)   
        Choose your payment method (credit card, PayPal, etc.) and enter the necessary details.
 - [X] **Complete Purchase**:   
        Tap on Place Order to finalize your purchase.
@@ -148,7 +149,7 @@ For further assistance, please refer to the support section or contact customer 
 --- 
 
 ## Advanced Usage
-
+![images (1)](https://github.com/user-attachments/assets/25d5ba22-29a5-42a7-83d8-43eaa32228de)
 ### How to add your product in DZASHA
 
 - **Accessing the Seller Dashboard**:
