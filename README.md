@@ -1,5 +1,5 @@
 # DZASHA SHOPPING APP
-DZASHA
+DZASHA :shirt:
 ## Key Features
 ![search-on-category-pc](https://github.com/user-attachments/assets/c31cdc69-090f-435b-9eab-9a95d18e8acf)
 - **Product Details**
