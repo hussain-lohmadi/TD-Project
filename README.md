@@ -1,22 +1,22 @@
-# Chronos - Time Management Redefined
+# DZASHA SHOPPING APP
 ![UI IMAGE](https://github.com/user-attachments/assets/08c0bd17-137c-47cd-a6f8-2edb2c968f81)
-
+DZASHA
 ## Key Features
-- **To-Do Lists**
+- **Product Details**
   
-        Ability to create, organize, prioritize, and categorize tasks
-- **Calendar Scheduling**
+         Detailed product descriptions, including materials, care instructions, and size guides.
+- **Shopping Cart**
   
-        A visual calendar view for daily, weekly, or monthly planning
-- **Time Tracking**
+        Users can add products to their cart for later purchase.
+- **Checkout Process**
   
-        A timer to track the time spent on tasks or projects
-- **Reminders**
+       Allow users to make purchases without creating an account.
+- **Order Tracking**
 
-        Customizable notifications and reminders for deadlines and events
-- **Collaboration**
+        Users can view their past orders and track current shipments.
+- **Wishlist**
   
-        Share tasks, projects, or calendars with team members or colleagues
+        Users can save items they like for future purchase.
 
 ---
 ## Installation Guide
